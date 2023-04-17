@@ -33,7 +33,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>LectureMe | STEPHEN</title>
+        <title>spot</title>
       </Head>
       <div className="container">
         <div className="header">
