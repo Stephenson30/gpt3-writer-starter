@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import buildspaceLogo from '../assets/MastermindBG.png';
 import { useState } from 'react';
 
 const Home = () => {
