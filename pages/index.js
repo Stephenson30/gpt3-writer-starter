@@ -33,20 +33,20 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>LectureMe | STEPHEN</title>
+        <title>spot</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Easily Digest Medical Courses</h1>
+            <h1>Interpret your tissue stain</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Ask Dr Stephen Some Questions</h2>
+            <h2>input what you see through the microscope</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea 
-          placeholder="Hello, ask me..." 
+          placeholder="input your findings..." 
           className="prompt-box"
           value={userInput}
           onChange={onUserChangedText}
